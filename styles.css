@@ -3,23 +3,74 @@
     margin: none;
 }
 body {
-    margin: 5px;
-    background-color: black;
+    margin: 2vh 2vw;
+    background-color: rgb(12, 11, 11);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .image-container {
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
     background-image: none;
     background-color: white;
     display: flex;
+    background-image: url(/images/snow.jpg);
+    background-position: top;
+}
+.zip-entry {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, .8);
+    
+}
+
+.zip {
+    margin: 1vw;
+    padding-left: 1vw;
+    width: 15vw;
+    height: 5vh;
+    border-style: none;
+    border-radius: 5px;
+}
+.cards {
+    background-color: rgba(255, 255, 255, .8);
+    position: absolute;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    bottom: 3vh;
 }
-.hero {
+
+.current-card {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.top-current {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.middle-current {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}
+
+.bottom-current {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
 }

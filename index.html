@@ -10,9 +10,25 @@
 </head>
 <body>
     <div id='image' class="image-container">
-        <div class='hero'>
-            <h2 class='title'>Please enter your zip code</h2>
-            <input type="text" id='zip' class='zip'>
+        <div class='zip-entry'>
+            <input type="text" id='zip' class='zip' placeholder="Please enter your zip code">
+        </div>
+
+        <div class='cards'>
+            <ul class='current-card'>
+                <div class='top-current'>
+                   <div><li>City</li></div> 
+                    <div><li>Time</li></div>    
+                </div>
+                <div class='middle-current'>
+                    <div><li>Weekday</li></div>
+                    <div><li>Temperature</li></div>    
+                </div>
+                <div class='bottom-current'>
+                    <li>high</li>
+                    <li>low</li>    
+                </div>
+            </ul>
         </div>
     </div>
 </body>

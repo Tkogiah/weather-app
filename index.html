@@ -10,23 +10,24 @@
 </head>
 <body>
     <div id='image' class="image-container">
-        <div class='zip-entry'>
-            <input type="text" id='zip' class='zip' placeholder="Please enter your zip code">
+        <div class='input-fields'>
+            <input type="text" id='city' class='input' placeholder="Please enter your city">
+            <input type="text" id='state' class='input' placeholder="Please enter your state">
         </div>
 
         <div class='cards'>
             <ul class='current-card'>
                 <div class='top-current'>
-                   <div><li>City</li></div> 
-                    <div><li>Time</li></div>    
+                   <div><li id='city-display'>City</li></div> 
+                    <div><li id='time'>Time</li></div>    
                 </div>
                 <div class='middle-current'>
-                    <div><li>Weekday</li></div>
-                    <div><li>Temperature</li></div>    
+                    <div><li id='weekday'>Weekday</li></div>
+                    <div><li id='temperature'>Temperature</li></div>    
                 </div>
                 <div class='bottom-current'>
-                   <div><li>High</li></div> 
-                    <div><li>Low</li></div>    
+                   <div><li id='high'>High</li></div> 
+                    <div><li id='low'>Low</li></div>    
                 </div>
             </ul>
         </div>
